@@ -47,3 +47,15 @@ python email_monitor.py list
 # 引数なしで実行すると定期チェックモードに
 python email_monitor.py
 
+---
+## 構造化
+
+py-mailchecker/
+├── src/
+│   ├── email_monitor/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── keys.py
+│   │   ├── mail_check.py
+│   │   └── scheduler.py
+│   └── email_monitor.py
